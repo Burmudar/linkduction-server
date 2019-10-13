@@ -1,11 +1,11 @@
 development:
-  dialect: "sqlite3"
+  dialect: "sqlite"
   database: /home/william/programming/golang/src/github.com/Burmudar/linkduction_linkduction_development.sqlite
 
 test:
-  dialect: "sqlite3"
+  dialect: "sqlite"
   database: /home/william/programming/golang/src/github.com/Burmudar/linkduction_linkduction_test.sqlite
 
 production:
-  dialect: "sqlite3"
+  dialect: "sqlite"
   database: /home/william/programming/golang/src/github.com/Burmudar/linkduction_linkduction_production.sqlite

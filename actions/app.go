@@ -58,6 +58,11 @@ func App() *buffalo.App {
 		// Setup and use translations:
 		app.Use(translations())
 
+		// API definitions
+		g := app.Group("/api/v1")
+		g.Use(WebSocketMiddleware)
+		g.GET("/websocket", WebsocketHandler)
+
 		app.GET("/", HomeHandler)
 
 		app.ServeFiles("/", assetsBox) // serve files from the public directory
