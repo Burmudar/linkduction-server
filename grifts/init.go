@@ -1,7 +1,7 @@
 package grifts
 
 import (
-	"github.com/Burmudar/linkduction/actions"
+	"github.com/Burmudar/linkduction-server/actions"
 	"github.com/gobuffalo/buffalo"
 )
 

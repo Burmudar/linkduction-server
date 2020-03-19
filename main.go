@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/Burmudar/linkduction/actions"
+	"github.com/Burmudar/linkduction-server/actions"
 )
 
 // main is the starting point for your Buffalo application.
